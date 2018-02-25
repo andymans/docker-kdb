@@ -1,5 +1,5 @@
 #!/bin/sh
-# A simple entrypoint script - it prints:
+# A simple entrypoint script - it:
 # 1 - prints a welcome message
 # 2 - prints the length of args
 # 3 - executes the arguments passed in. 
