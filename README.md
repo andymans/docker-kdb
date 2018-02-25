@@ -10,3 +10,5 @@ Obvs, you need to have docker installed - get it from https://www.docker.com if 
 ### Run Docker image
 Once you've built your image, you can run it. You can pass in a set of arguments with your run command, that the 'entrypoint' will pick up and execute. A simple run invocation to start q serving on port 5001 might resemble:
 ```docker run -it <your_username>/docker-kdb:latest q -p 5001``` 
+## Can I extend it?
+Yup. My implementation is deliberately super-simple, the entrypoint.sh is completely customisable, and you can hack it in any way you see fit to deliever what you need. Enjoy!
