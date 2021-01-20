@@ -1,5 +1,5 @@
 # Declare the alpine linux base image
-FROM alpine:3.7
+FROM alpine:3.10
 
 MAINTAINER Andy Manson
 
