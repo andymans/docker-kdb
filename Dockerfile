@@ -36,4 +36,3 @@ RUN unzip /q.zip \
 
 WORKDIR /
 EXPOSE  5001
-ENTRYPOINT ["/entrypoint.sh"]
